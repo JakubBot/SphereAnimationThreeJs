@@ -14,7 +14,7 @@ export const audioInit = () => {
     sound.setLoop(true);
     sound.setVolume(0.2);
     sound.offset = 10;
-    sound.play();
+    // sound.play();
   });
   
 }

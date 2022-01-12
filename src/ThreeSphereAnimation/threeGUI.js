@@ -24,6 +24,6 @@ export const initGUI = () => {
   gui.add(pointLight2.position, 'z', -3, 3, 0.2);
   gui.add(pointLight2, 'intensity', -1, 2, 0.1);
 
-  scene.add(pointLightHelper);
-  scene.add(pointLightHelper2);
+  // scene.add(pointLightHelper);
+  // scene.add(pointLightHelper2);
 };
