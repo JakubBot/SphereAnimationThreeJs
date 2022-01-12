@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SphereAnimationThreeJs/static/css/main.1d03de99.chunk.css",
+    "main.js": "/SphereAnimationThreeJs/static/js/main.285242ee.chunk.js",
+    "main.js.map": "/SphereAnimationThreeJs/static/js/main.285242ee.chunk.js.map",
+    "runtime-main.js": "/SphereAnimationThreeJs/static/js/runtime-main.fb331cbb.js",
+    "runtime-main.js.map": "/SphereAnimationThreeJs/static/js/runtime-main.fb331cbb.js.map",
+    "static/js/2.495540cf.chunk.js": "/SphereAnimationThreeJs/static/js/2.495540cf.chunk.js",
+    "static/js/2.495540cf.chunk.js.map": "/SphereAnimationThreeJs/static/js/2.495540cf.chunk.js.map",
+    "index.html": "/SphereAnimationThreeJs/index.html",
+    "static/css/main.1d03de99.chunk.css.map": "/SphereAnimationThreeJs/static/css/main.1d03de99.chunk.css.map",
+    "static/js/2.495540cf.chunk.js.LICENSE.txt": "/SphereAnimationThreeJs/static/js/2.495540cf.chunk.js.LICENSE.txt",
+    "static/media/NormalMap.0349aa08.png": "/SphereAnimationThreeJs/static/media/NormalMap.0349aa08.png",
+    "static/media/Origami.748a76bc.mp3": "/SphereAnimationThreeJs/static/media/Origami.748a76bc.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb331cbb.js",
+    "static/js/2.495540cf.chunk.js",
+    "static/css/main.1d03de99.chunk.css",
+    "static/js/main.285242ee.chunk.js"
+  ]
+}
