@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import { initScene, updateScene } from './threeInit';
+import { initMesh } from './mesh';
+import { initLights } from './lights';
+import { initGUI } from './threeGUI';
+import { audioInit } from './audio';
+import { sphereRotation, spherePosition } from './animations';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    initScene();
+    initMesh();
+    initLights();
+    initGUI();
+    audioInit();
+    sphereRotation();
+
+    let canvas = document.querySelector('.webgl');
+
+    canvas.addEventListener('mousemove', spherePosition);
+
+    window.addEventListener('resize', updateScene);
+    return () => {
+      window.location.reload();
+    };
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="text">
+        <h1>Feel the sphere</h1>
+      </div>
+      <div className="webgl" id="webgl"></div>
+      <section className="section"></section>
+    </>
   );
 }
 
