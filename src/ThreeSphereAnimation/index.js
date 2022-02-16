@@ -6,6 +6,7 @@ import { initGUI } from './threeGUI';
 import { audioInit } from './audio';
 import { sphereRotation, spherePosition } from './animations';
 
+
 const ThreeSphereAnimation = () => {
   useEffect(() => {
     initScene();
